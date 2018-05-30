@@ -1,9 +1,17 @@
 <?php 
 
-$nome = "joao";
+$nome = "João";
 $anoNascimento = 1998;
+$sobrenome = "Rangel";
+$nomeCompleto = $nome . " " . $sobrenome;
 
-echo "$nome $anoNascimento";
+echo "Seu nome é: $nomeCompleto </br>";
+echo "Seu ano de nascimento é: $anoNascimento";
+
+
+
+exit;
+
 
 unset($nome);
 
