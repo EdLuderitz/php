@@ -1,18 +1,21 @@
 <?php  
 
-$nome = "glaucio";
+$nome = "Glaucio";
 
-function teste () {
+function teste() {
 
+	global $nome;
 	echo $nome;
+}
+
+function teste2() {
+
+	$nome = "joao";
+	echo $nome . "agora no teste2";
 
 }
 
-function teste () {
+teste();
 
-
-}
-
-teste($nome);
-
+teste2();
 ?>
