@@ -2,4 +2,6 @@
 
 $nome = "hcode";
 
+echo $nome;
+
 ?>
