@@ -8,19 +8,18 @@ $nomeCompleto = $nome . " " . $sobrenome;
 echo "Seu nome é: $nomeCompleto </br>";
 echo "Seu ano de nascimento é: $anoNascimento";
 
-
-
-exit;
-
-
-unset($nome);
+unset($nome, $sobrenome, $nomeCompleto);
 
 echo "</br></br>";
 
-$nome = "maria";
+$nome = "Maria";
+$sobrenome = "Clara";
+$nomeCompleto = $nome . " " . $sobrenome;
 
-if (isset($nome)) {
-	echo $nome;
+
+if (isset($nome, $sobrenome, $nomeCompleto)) {
+	echo "Seu nome é: $nomeCompleto </br>";
+	echo "Seu ano de nascimento é: $anoNascimento";
 }
 
 
