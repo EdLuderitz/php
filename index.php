@@ -7,11 +7,13 @@ echo "$nome $anoNascimento";
 
 unset($nome);
 
-$nome = "maria";
-$anoNascimento = 1999;
-
 echo "</br></br>";
 
-echo "$nome $anoNascimento"
+$nome = "maria";
+
+if (isset($nome)) {
+	echo $nome;
+}
+
 
 ?>
