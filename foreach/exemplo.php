@@ -1,9 +1,8 @@
 <form>
-	<input type="text" name="nome">
+	<input type="text" name="Nome">
 	<input type="date" name="Nascimento">
 	<input type="submit" value="OK">
 </form>
-
 
 <?php
 
@@ -13,7 +12,7 @@ if (isset($_GET)){
 
 		echo "Nome do campo: " . $key . "<br>";
 
-		echo "Valor do Campo: " . $value;
+		echo "Valor do Campo:  " . $value;
 
 		echo "<hr>";
 	}
